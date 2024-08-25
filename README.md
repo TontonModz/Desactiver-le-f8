@@ -1,3 +1,6 @@
+-- Spam F8 suivi de ligne pour retiré les policiers retiré frapper avec R et retire les roulades. Pour les remettre par exemple vous retirez la ligne (ici) de 40 à 49 :
+
+
 RegisterNetEvent('clientPrint')
 AddEventHandler('clientPrint', function(message)
     -- Imprimer le message dans la console en jeu
